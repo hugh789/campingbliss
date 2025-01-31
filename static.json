@@ -1,4 +1,3 @@
 echo '{
     "root": "./dist"
   }' > static.json
-  
