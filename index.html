@@ -4,83 +4,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Campground Details</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
-    h1, h2 {
-      color: #333;
-    }
-    .section {
-      margin-bottom: 20px;
-    }
-    .label {
-      font-weight: bold;
-      color: #555;
-    }
-    .value {
-      color: #333;
-    }
-    .coordinates {
-      font-style: italic;
-      color: #777;
-    }
-  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <div class="container">
-    <h1>Apsley Falls</h1>
-    <h2>Apsley Falls Campground</h2>
-    <p class="description">This informal bushland setting, separated from the picnic area, gives easy access to Apsley Gorge Rim Walk and Oxley Walk.</p>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+  <div class="max-w-2xl bg-white rounded-lg shadow-lg p-6">
+    <h1 class="text-3xl font-bold text-gray-800">Apsley Falls</h1>
+    <h2 class="text-xl text-gray-600 mt-2">Apsley Falls Campground</h2>
     
-    <div class="section">
-      <span class="label">Toilets:</span>
-      <span class="value">Flush</span>
-    </div>
-    <div class="section">
-      <span class="label">Picnic Tables:</span>
-      <span class="value">Yes</span>
-    </div>
-    <div class="section">
-      <span class="label">Barbecues:</span>
-      <span class="value">Wood</span>
-    </div>
-    <div class="section">
-      <span class="label">Showers:</span>
-      <span class="value">None</span>
-    </div>
-    <div class="section">
-      <span class="label">Drinking Water:</span>
-      <span class="value">No</span>
-    </div>
-    <div class="section">
-      <span class="label">Suitable for Caravans:</span>
-      <span class="value">Yes</span>
-    </div>
-    <div class="section">
-      <span class="label">Suitable for Trailers:</span>
-      <span class="value">Yes</span>
-    </div>
-    <div class="section">
-      <span class="label">Car Access:</span>
-      <span class="value">Yes</span>
+    <p class="mt-4 text-gray-700">
+      This informal bushland setting, separated from the picnic area, gives easy access to Apsley Gorge Rim Walk and Oxley Walk.
+    </p>
+
+    <div class="mt-6 space-y-2">
+      <div class="flex justify-between">
+        <span class="font-semibold text-gray-700">Toilets:</span>
+        <span class="text-gray-900">Flush</span>
+      </div>
+      <div class="flex justify-between">
+        <span class="font-semibold text-gray-700">Picnic Tables:</span>
+        <span class="text-gray-900">Yes</span>
+      </div>
+      <div class="flex justify-between">
+        <span class="font-semibold text-gray-700">Barbecues:</span>
+        <span class="text-gray-900">Wood</span>
+      </div>
+      <div class="flex justify-between">
+        <span class="font-semibold text-gray-700">Showers:</span>
+        <span class="text-gray-900">None</span>
+      </div>
+      <div class="flex justify-between">
+        <span class="font-semibold text-gray-700">Drinking Water:</span>
+        <span class="text-gray-900">No</span>
+      </div>
+      <div class="flex justify-between">
+        <span class="font-semibold text-gray-700">Suitable for Caravans:</span>
+        <span class="text-gray-900">Yes</span>
+      </div>
+      <div class="flex justify-between">
+        <span class="font-semibold text-gray-700">Suitable for Trailers:</span>
+        <span class="text-gray-900">Yes</span>
+      </div>
+      <div class="flex justify-between">
+        <span class="font-semibold text-gray-700">Car Access:</span>
+        <span class="text-gray-900">Yes</span>
+      </div>
     </div>
 
-    <div class="section coordinates">
-      <span class="label">Coordinates:</span>
-      <span class="value">Latitude: -31.0540415000018, Longitude: 151.762134053333</span>
+    <div class="mt-6 text-sm text-gray-500">
+      <span class="font-semibold">Coordinates:</span> 
+      <span>Latitude: -31.0540415000018, Longitude: 151.762134053333</span>
     </div>
   </div>
+
 </body>
 </html>
