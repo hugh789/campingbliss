@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "name": "Apsley Falls Campground",
+      "state": "New South Wales",
+      "inspiration": "Waterfalls",
+      "image": "https://plus.unsplash.com/premium_photo-1661916911093-b2e5f005938f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FtcGluZ3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": 2,
+      "name": "Lake Tinaroo Campground",
+      "state": "Queensland",
+      "inspiration": "Lakes & Rivers",
+      "image": "https://hipcamp-res.cloudinary.com/f_auto,c_limit,w_950,q_auto:eco/v1645653740/campground-photos/ovsrjvakyvdvm2zgxhk8.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Grampians National Park",
+      "state": "Victoria",
+      "inspiration": "Mountains",
+      "image": "https://hipcamp-res.cloudinary.com/f_auto,c_limit,w_550,q_auto:eco/v1645653069/campground-photos/eqcizg5ftig11h7zzylg.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Flinders Ranges",
+      "state": "South Australia",
+      "inspiration": "Desert & Outback",
+      "image": "https://hipcamp-res.cloudinary.com/f_auto,c_limit,w_550,q_auto:eco/v1645652736/campground-photos/xpeaavzduimuwnxyaw5p.jpg"
+    }
+  ]
+  
